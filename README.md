@@ -1,2 +1,2 @@
-# job-scheduler
-This job scheduler created with Node Js, Typescript and Bull Js
+# Node Js - Job Scheduler
+This job scheduler app was created with Node Js, Typescript, Objection Js and Bull Js.
