@@ -1,6 +1,6 @@
 // Modules
 import Queue from 'bull';
-import appConfig from '../config/app.config';
+import appConfig from '../configs/app.config';
 import ImportExcelJob from '../jobs/import_excel.job';
 
 const importExcelQueue = new Queue('ImportExcelQueue', {

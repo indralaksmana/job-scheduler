@@ -2,14 +2,14 @@
 import _ from 'lodash';
 import path, { join } from 'path';
 import ExcelJS from 'exceljs';
-import knex from './config/db.config';
 import { Model } from 'objection';
 import bullArena from 'bull-arena';
 import express, {Application, Request, Response} from 'express';
 
 // Configs
-import appConfig from './config/app.config';
-import { ArenaConfig } from './config/arena.config';
+import knex from './configs/db.config';
+import appConfig from './configs/app.config';
+import { ArenaConfig } from './configs/arena.config';
 
 // Helpers
 import chunkArrayHelper from './helpers/chunk_array.helper';
